@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #d0f4f7 0%, #e4f9d9 100%); /* Matching gradient */
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.start-button {
+  background: #009688; 
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.start-button:hover {
+  background: #00796b; 
+}
+
+.start-button:active {
+  transform: scale(0.98);
+}

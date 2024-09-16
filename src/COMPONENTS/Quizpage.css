@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #d0f4f7 0%, #e4f9d9 100%);
+    margin: 0; 
+  }
+  
+  .quiz-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px; 
+    width: 600px;
+    max-width: 100%; 
+    box-sizing: border-box; 
+  }
+
+  .results-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .results-container .nav-button{
+    margin-top: 20px; 
+  }
+
+.question-no{
+    font-size: 32px;
+    font-weight: 500;
+    color: #00796b;
+  }
+  
+.total-question{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9c9c9c;
+}
+
+  .question {
+    text-align: center;
+    font-size: 26px;
+    color: #333333; 
+  }
+  
+  .options-list {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .option-item {
+    margin: 10px 0;
+  }
+  
+  .option-button {
+    background: transparent;
+    color: #009688; 
+    border: 2px solid #009688; 
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    width: 100%; 
+    max-width: 250px;  
+    box-sizing: border-box; 
+  }
+  
+  .option-button:hover {
+    background: #009688; 
+    color: white; 
+  }
+  
+  .option-button:active {
+    transform: scale(0.98);
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    background: #009688;
+    color: white;
+    border: none;
+    padding: 12px 30px; 
+    border-radius: 8px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    margin: 0 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .nav-button:hover {
+    background: #00796b; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+  }
+  
+  .nav-button:disabled {
+    background: #c6c8ca;  
+    cursor: not-allowed;
+  }
+  
+  .timer {
+    font-size: 16px; 
+    color: #d32f2f;
+    text-align: center;
+  }
+  
